@@ -106,7 +106,7 @@ function left()
 function right()
 {
 	//Define function to move the car right side
-	if(greencar_x <= 740)
+	if(greencar_x <= 735)
 	{
 		greencar_x = greencar_x + 10;
 		console.log("Right arrow is pressed, x = "+ greencar_x + "| y = " + greencar_y);
